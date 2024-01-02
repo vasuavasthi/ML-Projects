@@ -8,9 +8,13 @@ Created on Sat Dec 23 14:41:47 2023
 import numpy as np
 import pickle
 import streamlit as st
+import os
+
+model_path = os.path.join(os.path.dirname(__file__), 'PCOS_trained_model.sav')
+loaded_model = pickle.load(open(model_path, 'rb'))
 
 #loading the saved mode
-loaded_model=pickle.load(open('PCOS_trained_model.sav','rb')) 
+#loaded_model=pickle.load(open('PCOS_trained_model.sav','rb')) 
 
 #creating function for prediction
 def Pcos_detection(input_data):
