@@ -47,7 +47,6 @@ cmdstanpy==1.2.0
 colorcet==3.0.1
 colorlover==0.3.0
 colour==0.1.5
-community==1.0.0
 confection==0.1.4
 cons==0.4.6
 contextlib2==21.6.0
