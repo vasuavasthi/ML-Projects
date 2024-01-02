@@ -10,9 +10,9 @@ import pickle
 import streamlit as st
 
 #loading the saved mode
-loaded_model=pickle.load(open('Car Price Prediction/CPP_trained_model.sav','rb'))
+loaded_model = pickle.load(open('CPP_trained_model.sav', 'rb'))
+#loaded_model=pickle.load(open('Car Price Prediction/CPP_trained_model.sav','rb'))
 #loaded_model=pickle.load(open('Car Price Prediction/trained_model.sav','rb')) 
-
 
 #creating function for prediction
 def Car_price_predictor(input_data):
