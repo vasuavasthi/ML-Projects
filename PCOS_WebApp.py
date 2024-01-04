@@ -8,7 +8,7 @@ Created on Sat Dec 23 14:41:47 2023
 import numpy as np
 import pickle
 import streamlit as st
-!pip install scikit-learn 
+pip install scikit-learn 
 #loading the saved mode
 loaded_model=pickle.load(open('PCOS_trained_model.sav','rb')) 
 
