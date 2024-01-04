@@ -11,7 +11,7 @@ import streamlit as st
 import os
 
 model_path = os.path.join(os.path.dirname(__file__), 'PCOS_trained_model.sav')
-loaded_model = pickle.load(open(model_path, 'rb'))
+loaded_model = pickle.load(open('PCOS_trained_model.sav', 'rb'))
 
 #loading the saved mode
 #loaded_model=pickle.load(open('PCOS_trained_model.sav','rb')) 
