@@ -4,7 +4,7 @@ Created on Sat Dec 23 14:41:47 2023
 
 @author: awast
 """
-
+import sklearn
 import numpy as np
 import pickle
 import streamlit as st
