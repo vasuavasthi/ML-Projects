@@ -7,9 +7,10 @@ Created on Sat Dec 23 14:41:47 2023
 
 import numpy as np
 import pickle
-import streamlit as st 
+import streamlit as st
+
 #loading the saved mode
-loaded_model=pickle.load(open('PCOS_trained_model.sav','rb')) 
+loaded_model=pickle.load(open('F:/ML Project/PCOS/PCOS_trained_model.sav','rb')) 
 
 #creating function for prediction
 def Pcos_detection(input_data):
